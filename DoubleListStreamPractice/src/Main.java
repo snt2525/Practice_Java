@@ -21,16 +21,16 @@ class Pair {
 }
 public class Main {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+	// TODO Auto-generated method stub
         List<List<Integer>> list = new ArrayList<>();
 
         for(int i = 0;i < 10;i++) {
-            List<Integer> random = new ArrayList<>();
+            List<Integer> random = new ArrayList<>();		
             for(int j = 0;j < 10;j++) {
                 int randomNumber = (int)(Math.random() * 100) + 1;
                 random.add(randomNumber);
-            }
+            }	
             list.add(i, random);
         }
 
@@ -72,5 +72,5 @@ public class Main {
         System.out.println(result.toString());
         System.out.println(result2.toString());
 
-	}
+    }
 }
